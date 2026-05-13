@@ -1,0 +1,27 @@
+- Mettre les icônes en font awesome sur les liens/boutons "exercices, alimentation et hygiène de vie"
+- Réinitialiser les exercices, tâches, alimentaions à zéro après les 90 jours
+- Si possible signaler l'utilisateur s'il entre 2 mêmes tâches ou exercices par erreur
+- Supprimer les suggestions déjà entrés lors de l'ajout de tâches
+- Les exercices déjà effectués doivent se Réinitialiser tous les 24 heures
+- Ajouter en bas de la barre pourcentage accompli un autre barre de nombre de jour écoulé 
+- On peut désormais ajouter des tâches ou exrcices n'importe quand même quand le Chrono est lancé
+
++ Le "By Andraina" doit-être visible, visibilité que ce soit cliquable, modèle bouton ou clignotement
+
++ Modifier les tâches/exercices, pour chaque tâche à exécuter, on ne cocher plus pour marquer que 
+c'est fini mais chaque exercice/tâche a un statut, soit c'est fait soit c'est raté pour aujourd'hui, par 
+exemple si j'ai comme tâche dormir avant 20 heures dans hygiène de vie, et qu'aujourd'hui j'ai eu du travail
+à faire et je me suis couché tard, donc je marque dans l'App que c'est raté. Je suggère qu'il faut mettre 
+2 boutons sur chaque tâche, l'un accompli et l'autre raté. Donc les tâches accompli de viennent verte et 
+les ratés rouges.
++ En conséquence de cela, je veux ajouter une page (accessible via un bouton) qui affiche pour chaque jour
+c'est-à-dire tout les 24 heures, un petit compte rendu des tâches qui ont été accompli ou ratés. 
+On peut voir donc sur cette page, par exemple, Mercredi 13 Mai 2026 : (supposons qu'il y a au total 20 tâches) 
+18 tâches accompli et 2 ratés. Le nom des tâches (détails) sont cachés avant mais quand il clique, ils vont
+s'afficher (nom des tâches, etc.)
+Les informations doivent alors être stocké (dans la base de données si possible) de façon permanente dans cette
+page pendant les 90 jours mais seront effacés après que les 90 jours seront passés. Et quand les 90 jours
+seront passées un compte rendu générale doit s'afficher, donc toutes les compte rendu journalière des 90 jours
+seront affichés avant la réinitialisation/effacement. 
+
+- Chrono ne nuit pas à la performance de l'App ?
