@@ -28,7 +28,7 @@ export default function AuthPage() {
   const handleSubmit = async () => {
     setError('');
     try {
-      const url = isLogin ? '/api/login' : '/api/register';
+      const url = step === 'login' ? '/api/login' : '/api/register';
       const { data } = await axios.post(url, { username, password });
       setAuth(data.token, { username: data.username });
       navigate('/welcome');
